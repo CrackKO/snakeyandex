@@ -1,0 +1,32 @@
+{
+  "name": "neon-snake-evolution",
+  "version": "1.0.0",
+  "description": "NEON SNAKE: EVOLUTION - Arcade Snake + Roguelite for Yandex Games",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint src --ext .ts"
+  },
+  "keywords": [
+    "game",
+    "snake",
+    "yandex-games",
+    "phaser"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^26.5.1",
+    "@typescript-eslint/eslint-plugin": "^8.70.0",
+    "@typescript-eslint/parser": "^8.70.0",
+    "esbuild": "^0.28.2",
+    "eslint": "^10.10.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.0"
+  },
+  "dependencies": {
+    "phaser": "^4.2.1"
+  }
+}
